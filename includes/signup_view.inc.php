@@ -67,8 +67,7 @@ function signup_inputs() {
 function signup_success() {
     if (isset($_GET["signup"]) && $_GET["signup"] === "success") {
         echo '<br>';
-        echo '<p class="form-success">Signup success!</p>';
-        unset($_SESSION["signup_data"]);
+        echo '<p class="form-success">Signup success!</p>';     
     }
 }
 
