@@ -72,6 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
         header("Location: ../index.php?signup=success");
 
         unset($_SESSION["signup_data"]);
+        unset($_SESSION["errors_signup"]);
 
         $pdo = null; 
         $stmt = null;
