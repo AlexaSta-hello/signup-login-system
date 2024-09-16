@@ -7,7 +7,7 @@ ini_set('session.use_only_cookies', 1); // 1 is true
 ini_set('session.use_strict_mode', 1); // macht session id komplexer
 
 session_set_cookie_params([
-    'lifetime' => 1800, // Cookie lebt 3 Minuten
+    'lifetime' => 1800, // Cookie lebt 30 Minuten
     'domain' => 'localhost', // lebt nur in der Domain example.com
     'path' => '/', // in jeder SubSeite unsere Website
     'secure' => true, // nur in https connection
